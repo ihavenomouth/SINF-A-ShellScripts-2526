@@ -1,0 +1,4 @@
+-rwxrw-r-- 1 javier javier    533 Jan 29 19:38 Ej2.sh
+-rwxrw-r-- 1 javier javier   1621 Jan 29 19:19 explicación_de_variables.sh
+-rw------- 1 javier javier 139307 Sep 27  2023 ideogram1.jpeg
+-rw------- 1 javier javier  81835 Sep 27  2023 ideogram2.jpeg
