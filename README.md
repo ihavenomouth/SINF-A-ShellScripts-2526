@@ -21,6 +21,8 @@ Orden echo:
 - Operaciones aritméticas básicas
 - Recuperar el resultado de una operación
 
+### Redirecciones
+
 ### Condicionales
 
 ### Orden exit
@@ -30,4 +32,4 @@ Orden echo:
 
 ### Bucles
 
-### Filtros
+### Filtros y tuberías
