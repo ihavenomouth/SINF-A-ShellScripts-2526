@@ -1,0 +1,5 @@
+fecha: Fri Jan 30 20:46:48 CET 2026
+usuario: root
+equipo: j-roy
+ficheros del directorio home:
+snap

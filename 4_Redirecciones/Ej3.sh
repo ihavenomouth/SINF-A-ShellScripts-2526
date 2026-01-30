@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Crea un shell script que cree un fichero llamado info.txt con información
 # del sistema.
 # Si el fichero ya existe, se sobreescribirá.
@@ -10,3 +12,12 @@
 # equipo: <nombre del equipo>
 # ficheros del directorio home:
 # <listado de ficheros del directorio home>
+
+fecha=$( date )
+
+echo "fecha: $fecha" > info.txt
+echo "usuario: $USER" >> info.txt
+echo "equipo: $HOSTNAME" >> info.txt
+echo "ficheros del directorio home:" >> info.txt
+ls ~ >> info.txt
+
