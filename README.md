@@ -23,6 +23,8 @@ Orden echo:
 - Variables de entorno
 
 ### Redirecciones
+- Redirección simple
+- Redirección doble
 
 ### Condicionales
 
