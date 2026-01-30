@@ -4,7 +4,7 @@
 
 ## Ejercicio de saludo
 Crea un script llamado saludo.sh que reciba dos parámetros: un nombre y un rol (profesor, alumno, administrador, etc.).
-El script debe imprimir: "Hola <nombre>, eres <rol>".
+El script debe imprimir: "Hola [nombre], eres [rol]".
 Debe mostrar cuántos argumentos ha recibido el usuario en total.
 Debe imprimir un mensaje de despedida en una línea diferente.
 
