@@ -1,4 +1,4 @@
-# SINF-B-ShellScripts-2526
+# SINF-A-ShellScripts-2526
 Desarrollo Web en Entorno Cliente SINF
 
 ## Capítulos
@@ -26,10 +26,11 @@ Orden echo:
 - Redirección simple
 - Redirección doble
 
-### Condicionales
-
 ### Orden exit
 - Códigos de error
+
+### Condicionales
+
 
 ### Funciones
 

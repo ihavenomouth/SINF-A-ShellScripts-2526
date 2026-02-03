@@ -33,7 +33,7 @@ Crea un script llamado simulabackup.sh que simule la creación de una copia de s
 
 ## Ejercicio de copia de seguridad
 
-Crea una copia del script llamado simulabackup.sh y modificala para la creación de una copia de seguridad:
+Crea una copia del script llamado backup.sh y modificala para la creación de una copia de seguridad:
 * El script recibirá una extensión como primer parámetro (por ejemplo sh)
 * Imprime un mensaje que indique la extensión que se va a usar, por ejemplo "Se va a realizar una copia de los ficheros sh" 
 * Muestra por pantalla el mensaje: "Procesando el archivo backup.tar.gz..." sin saltar de línea (usa la opción -n de echo).
