@@ -80,6 +80,18 @@
 # fi
 
 
+# Importante: Es muy tiquismiquis con la sintaxis, tiene que respetarse los espacios de la condición.
+
+# if[ "$1" == "--help" ];then   # fallo porque falta un espacio: if[
+# if ["$1" == "--help" ];then   # fallo porque falta un espacio: ["$1"
+# if [ "$1"== "--help" ];then   # fallo porque falta un espacio: "$1"==
+# if [ "$1" =="--help" ];then   # fallo porque falta un espacio: =="--help"
+# if [ "$1" == "--help"];then   # fallo porque falta un espacio: "--help"]
+# if [ "$1" == "--help"] then   # fallo porque falta el ;
+
+
+
+
 # -----------------------------
 # Comparaciones y condiciones
 # -----------------------------

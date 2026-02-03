@@ -30,7 +30,7 @@ Orden echo:
 - Códigos de error
 
 ### Condicionales
-
+- Condicionales de cadenas
 
 ### Funciones
 
