@@ -31,19 +31,19 @@ fi
 
 # En otro caso, tratará el primer parámetro como comentario y ejecutará lo siguiente:
 
-git add .
+git add . >/dev/null 2>/dev/null
 if [ $? -ne 0 ];then
   echo "Se produjo un error al ejecutar: git add ." 1>&2
   exit 1
 fi
 
-git commit -m "$1"
+git commit -m "$1" >/dev/null 2>/dev/null
 if [ $? -ne 0 ];then
   echo "Se produjo un error al ejecutar: git commit" 1>&2
   exit 2
 fi
 
-git push
+git push >/dev/null 2>/dev/null
 if [ $? -ne 0 ];then
   echo "Se produjo un error al ejecutar: git push" 1>&2
   exit 1
