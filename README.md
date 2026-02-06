@@ -31,9 +31,19 @@ Orden echo:
 
 ### Condicionales
 - Condicionales de cadenas
+- Condicionales numéricos
+- Condicionales de ficheros
+- Condicionales de permisos
+- Evaluación perezosa
 
 ### Funciones
+- Definición
+- Parámetros
+- Devolución
 
 ### Bucles
+- For (patrón iterator)
+- While
+- Leer un fichero
 
 ### Filtros y tuberías

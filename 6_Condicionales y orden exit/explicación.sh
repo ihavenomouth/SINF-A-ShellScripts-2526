@@ -135,4 +135,21 @@
 # [ -x "f.txt" ]   # Comprueba si el usuario que ejecuta el script tiene permisos de ejecución
 
 
+# -----------------------------
+# Condiciones complejas
+# -----------------------------
+
+# Se utilizan los parámetros &&, || y !
+
+edad=17
+
+if [ $edad -lt 13 ];then
+  echo "Niño"
+elif [ edad -ge 13 ] && [ edad -le 17 ];then
+  echo "Adolescente"
+elif [ edad -ge 18 ] && [ edad -le 25 ];then
+  echo "Joven"
+else
+  echo "Adulto"
+fi
 
