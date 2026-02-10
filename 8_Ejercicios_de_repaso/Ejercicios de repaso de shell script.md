@@ -15,7 +15,7 @@ Crea un script llamado `esRoot` que no reciba parámetros. Su función es verifi
 ## Ejercicio: esNum
 Crea un script llamado `esNum` que contenga este código:
 ```sh
-[[ "$1" =~ ^-?[0-9]+\.[0-9]*$ ]] && exit 0
+[[ "$1" =~ ^-?[0-9]+(\.[0-9]+)?$ ]] && exit 0
 exit 1
 ```
 
