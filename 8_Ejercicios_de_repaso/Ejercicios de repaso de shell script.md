@@ -69,7 +69,7 @@ Error: Debe indicar un número como parámetro
 
 
 ## Ejercicio: máquina expendedora
-Una máquina expendedora de Pepsi utiliza un sistema curioso para funcionar, utiliza un shell script que pregunta al suario su nombre y el número de bebidas que quiere y le muestra el coste de la operación. Cada bebida costará 1.55 €.
+Una máquina expendedora de Pepsi utiliza un sistema curioso para funcionar, utiliza un shell script que pregunta al usuario su nombre y el número de bebidas que quiere y le muestra el coste de la operación. Cada bebida costará 1.55 €.
 Sin embargo han añadido un _easter egg_ si el nombre es "Sara" simplementee responderá "Gracias, Sara. ¡Siguiente!".
 
 ```sh
