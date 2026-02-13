@@ -11,11 +11,28 @@ if [ $# -ne  1 ];then
   exit 1
 fi
 
+./esNumEntero $1
+if [ $? -eq 1 ];then
+  echo "El año de nacimiento debe ser un número entero" 1>&2
+  exit 1
+fi
 
 
 annoActual=$( date +%Y )
 annoNacimiento=$1
 
+annosDelUsuario=$(( $annoActual - $annoNacimiento ))
+
+echo "Tienes $annosDelUsuario años."
+
+if [ $annosDelUsuario -lt 50 ];then
+  quedan=$(( 50 - $annosDelUsuario ))
+  echo "Cumplirás los 50 dentro de $quedan años"
+  exit 0
+else
+  cumplio=$(( $annosDelUsuario - 50 ))
+  echo "Cumpliste los 50 hace $cumplio años"
+fi
 
 
 # ```sh
