@@ -1,0 +1,9 @@
+1 ana 125
+2 juan 300
+3 pedro 3456
+4 antonio 147
+5 felipe 847
+60 sara 76
+12 mar 98
+23 carlos 7
+7 bea 34
