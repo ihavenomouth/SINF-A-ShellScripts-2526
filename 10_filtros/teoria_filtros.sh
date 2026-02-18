@@ -16,7 +16,7 @@
 
 
 # -------------------------
-# Ordenar
+# Ordenar (orden sort)
 # -----------------------
 
 # cat datos.txt | sort    # alfabéticamente
@@ -29,7 +29,7 @@
 
 
 # -------------------------
-# cortar por columnas
+# cortar por columnas (orden cut)
 # -----------------------
 # -d " " caracter delimitador
 # -f 1 campo o campos que queremos
@@ -51,13 +51,13 @@ echo "Nº de ficheros: $i"
 
 
 # -------------------------
-# traducir
+# traducir (orden tr)
 # -----------------------
 echo "Hola caracola" | tr "alc" "x.-" #Ho.x -xrx-o.x
 echo "Hola     caracola" | tr -s " "  #Hola caracola
 
 # ----------------------------------------------------
-# cortar las líneas que cumplan una expresión regular
+# cortar las líneas que cumplan una expresión regular (orden grep)
 # ----------------------------------------------------
 
 
