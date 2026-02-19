@@ -39,14 +39,14 @@
 
 # Ejemplo: saber cuántos ficheros hay en el directorio actual
 
-i=0
-for item in $(ls -l | cut -c 1);do
-  if [ "$item" == "-" ];then
-    i=$(( $i + 1 ))
-  fi
-done
+# i=0
+# for item in $(ls -l | cut -c 1);do
+#   if [ "$item" == "-" ];then
+#     i=$(( $i + 1 ))
+#   fi
+# done
 
-echo "Nº de ficheros: $i"
+# echo "Nº de ficheros: $i"
 
 
 
@@ -56,8 +56,28 @@ echo "Nº de ficheros: $i"
 echo "Hola caracola" | tr "alc" "x.-" #Ho.x -xrx-o.x
 echo "Hola     caracola" | tr -s " "  #Hola caracola
 
+# -------------------------
+# contar (orden wc)
+# -----------------------
+echo -n "Hola" | wc -c  # 4 caracteres
+cat /etc/passwd | wc -l  # 200 usuarios (líneas)
+
+
 # ----------------------------------------------------
 # cortar las líneas que cumplan una expresión regular (orden grep)
 # ----------------------------------------------------
+cat /etc/passwd | grep "^javier:" | cut -d ":" -f6
+
+#  ^ --> comienzo de la línea
+#  $ --> final de la línea
+#  . -- > cualquier caracter
+#  * --> O ó N repeticiones de lo que tenga delante
+#  ? --> O ó 1 repeticiones de lo que tenga delante
+#  () --> agrupación
+#  [] --> selección de uno de los caracteres que contenga
+#  \. --> caracter de escape
+
+
+
 
 

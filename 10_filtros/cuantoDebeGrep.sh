@@ -38,18 +38,8 @@ fi
 # fi
 
 #Recorremos el fichero línea a línea
-while read linea;do
-  nombre_en_la_linea=$(echo $linea | cut -d " " -f 2 )
-  # echo $nombre_en_la_linea
+cat datos.txt | grep " $1 " | cut -d " " -f3
 
-  if [ "$1" == "$nombre_en_la_linea" ];then
-    cantidad_que_debe=$(echo $linea | cut -d " " -f 3 )
-    echo "$cantidad_que_debe"
-    exit 0
-  fi
 
-done < datos.txt
-
-echo "El nombre $1 no corresponde con ningún cliente"
 
 
