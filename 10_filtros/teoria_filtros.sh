@@ -77,7 +77,12 @@ cat /etc/passwd | grep "^javier:" | cut -d ":" -f6
 #  [] --> selección de uno de los caracteres que contenga
 #  \. --> caracter de escape
 
+# devuelve las líneas que NO cumplen el patrón
+cat /etc/passwd | grep -v "a"
 
+# devuelve la línea que cumple el patrón además de las 3 anteriores (before)
+# y las 5 siguientes (after)
+cat /etc/passwd | grep "a" -B 3 -A 5
 
-
-
+# devuelve sólo la parte que cumpla con el patrón
+cat /etc/passwd | grep "^.*:" -o
