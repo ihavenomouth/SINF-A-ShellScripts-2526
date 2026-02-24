@@ -45,7 +45,7 @@ Por ejemplo:
 2026-02-18T11:15:01.395713+01:00 j-roy CRON[7744]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
 ```
 
-De toda esa información sólo nos interesa la fecha y hora y la parte que indica el usuario involucrado. Pero sólo si el uid es mayor o igual que 100.
+De toda esa información sólo nos interesa la fecha y hora y la parte que indica el usuario involucrado. Pero sólo si el uid es mayor o igual que 1000.
 ```sh
 2026-02-18 10:46:43 javier(uid=1000)
 2026-02-18 10:46:43 javier(uid=1000)
